@@ -1,0 +1,17 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# data and results stay in the cloud bucket, not in git
+data/raw/
+data/processed/
+results/
+*.1D
+*.parquet
+*.csv
+
+# credentials, never commit
+*.json
+.env
